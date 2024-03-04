@@ -2,6 +2,7 @@ import React from 'react';
 import img from '../../../public/image.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
+import Card from './Card';
 
 function CategroyComponents() {
   return (
@@ -15,31 +16,39 @@ function CategroyComponents() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 p-5">
               <div className="">
                 <Image src={img} alt="" />
-                <p>portfolio</p>
+                <Card name="ram" />
               </div>
               <div className="">
                 <Image src={img} alt="" />
+                <Card name="shyam" />
               </div>
               <div className="">
                 <Image src={img} alt="" />
+                <Card name="mohit" />
               </div>
               <div className="">
                 <Image src={img} alt="" />
+                <Card name="sohit" />
               </div>
               <div className="">
                 <Image src={img} alt="" />
+                <Card />
               </div>
               <div className="">
                 <Image src={img} alt="" />
+                <Card />
               </div>
               <div className="">
                 <Image src={img} alt="" />
+                <Card />
               </div>
               <div className="">
                 <Image src={img} alt="" />
+                <Card />
               </div>
               <div className="">
                 <Image src={img} alt="" />
+                <Card />
               </div>
             </div>
           </div>
